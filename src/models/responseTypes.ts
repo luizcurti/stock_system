@@ -7,8 +7,7 @@ export interface responsePathStock{
     product: string, 
     stock: number
 }
-
-export interface responseGetStock{
+export interface responseGetStock {
     ID: number
     IN_STOCK: number, 
     RESERVE: number, 
