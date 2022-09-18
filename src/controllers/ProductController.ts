@@ -53,15 +53,3 @@ export class ProductController extends Controller {
   ): Promise<void> {
     return await this.productService.postStockSold(request);;
   }
-
-
-
-
-  // @Response<ErrorResponse>(400, "Bad Request")
-  // @Post("/quota")
-  // public async createUserQuota(
-  //   @Request() request:ExRequest,
-  // ): Promise<void> {
-  //   await this.productService.createUserQuota(request);
-  // }  
-}
