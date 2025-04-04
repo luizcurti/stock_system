@@ -1,7 +1,7 @@
-import { ProductRepository } from "../../src/repositories/ProductRepository"; 
-import { db } from "../../src/config/database";
+import { ProductRepository } from "../src/repositories/ProductRepository"; 
+import { db } from "../src/config/database";
 import { v4 as uuidv4 } from 'uuid';
-import { customError } from "../../src/customErrors/customErrors";
+import { customError } from "../src/customErrors/customErrors";
 
 const productRepository = new ProductRepository();
 
