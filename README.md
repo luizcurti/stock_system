@@ -1,7 +1,29 @@
-Before starting to run the application, we have the following steps
+# Stock System
+## Prerequisites
+Before running the application, make sure you have the following installed:
+- Docker (for setting up the database)
+- Yarn (for package management)
 
-1 - Run docker compose -up in a terminal to load the database.
-2 - Inside the SQL folder, we have a file "stock.sql", it is necessary to create the tables using it.
-3 - After creating the Database, open another terminal and inside the system directory use the yarn install command to install all the dependencies.
-4 - Use yarn restart command to run the build
-5 - The file "Insomnia.json" has all the routes to run the application.
+## Setup
+Run Docker:
+Open a terminal and run the following to load the database:
+* docker-compose up
+
+### Create Database Tables:
+Inside the SQL folder, run the stock.sql file to create the necessary tables.
+
+### Install Dependencies:
+Open another terminal, navigate to the project directory, and run:
+* yarn install
+
+### Run the Application:
+After installing dependencies, run:
+* yarn restart
+
+### API Documentation:
+The file Insomnia.json contains all the API routes for testing the application.
+
+## Usage
+Start the application by running the appropriate build command as shown above.
+
+Test endpoints using the Insomnia.json file or any API client of your choice.
