@@ -51,5 +51,6 @@ export class ProductController extends Controller {
   public async postStockSold(
     @Request() request:ExRequest,
   ): Promise<void> {
-    return await this.productService.postStockSold(request);;
+    return await this.productService.postStockSold(request);
   }
+}

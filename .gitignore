@@ -3,3 +3,5 @@ build/*
 coverage
 .env.test
 db/
+.qodo
+yarn.lock
